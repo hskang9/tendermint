@@ -36,6 +36,7 @@ IMPROVEMENTS:
 - [all] renamed `dummy` (`persistent_dummy`) to `kvstore`
   (`persistent_kvstore`) (name "dummy" is deprecated and will not work in
   release after this one)
+- [rpc] `/tx` and `/tx_search` responses now include the transaction hash
 
 FEATURES:
 - [config] added the `--p2p.private_peer_ids` flag and `PrivatePeerIDs` config variable (see config for description)
